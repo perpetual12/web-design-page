@@ -1,4 +1,10 @@
 @media (max-width: 615px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+    
     .navigation-wrapper {
         flex-direction: column;
         height: 100%;
@@ -89,5 +95,9 @@
 
     .form textarea {
         padding: 1.5rem 0rem;
+    }
+
+    .hero-section > .top-heading {
+        width: 250px;
     }
 }
